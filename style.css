@@ -1,0 +1,288 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* common css */
+#hr{
+    border: 10px dotted grey !important;
+    opacity: 1.1 !important;
+    border-bottom: none !important;
+    width: 70px !important;
+    background: none !important;
+    margin: auto !important; ;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header css start */
+#header{
+    color: white;
+    background: #24a19c;
+    padding: 0% 7%;
+    text-align: center;
+}
+.header-logo img{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav .nav-item .nav-link{
+    margin: 10px 20px;
+    color: white;
+    transition: .4s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+   text-decoration: underline;
+   background: black;
+   color: white;
+}
+/* header css end */
+
+/* main css start */
+#main{
+    background: url(./image/nick-karvounis-Ciqxn7FE4vE-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+     position: relative; 
+}
+.banner-contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+  }
+.banner-contents h1{
+    padding: 10px;
+    margin: 15px auto;
+    font-size: 3rem;
+    background: rgba(255, 255, 0, 0.8 );
+    border-radius: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+@media only screen and (min-width: 392px) {
+    .banner-contents h1{
+    width: 480px;
+    }
+}
+@media only screen and (min-width: 592px) {
+    .banner-contents h1{
+    width: 580px;
+    }
+}
+@media only screen and (min-width: 692px) {
+    .banner-contents h1{
+    width: 680px;
+    }
+}
+@media only screen and (min-width: 792px) {
+    .banner-contents h1{
+      width: 800px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .banner-contents h1{
+      width: 800px;
+    }
+}
+.banner-contents p{
+    border-radius: 20px;
+    width: 300px;
+    margin: 15px auto;
+    background: rgba(0, 128, 0, 1);
+    padding: 15px;
+}  
+.banner-link{
+    text-decoration: none;
+    font-family: 'Akaya Telivigala';
+    width: 160px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 12px;
+    text-transform: uppercase;
+    background: rgba(0, 128, 0, 1);
+    color: white;
+    transition: .4s;
+} 
+.banner-link:hover{
+    text-decoration: none;
+    background: red;
+}
+/* main css end */
+
+/* about css start*/
+#about-us{
+    margin: 50px 0;
+}
+.about-us-contents{
+    text-align: center;
+   }
+/* .about-us-contents h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+} */
+.about-us-contents p{
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 1rem;
+    margin-bottom: 10px; 
+}
+/* about css end */
+
+
+/* food menu css start */
+.menu{
+    padding: 50px 0;
+    transition: .4s;
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+.menu-head{
+    position: relative;
+}
+/* .menu-head img{
+
+} */
+@media only screen and (min-width: 772px) {
+    .menu-head img{
+        height: 220px !important;
+        width: 400px;
+    }
+}
+.menu .menu-head .menu-price{
+    color: #fff;
+    background: #ff5722;
+    width: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    height: 50px;
+    border:1px solid;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    bottom:-20px;
+}
+.menu-rating{
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+    background: red;
+}
+.menu-rating i{
+    color: orange;
+}
+.menu-body{
+    padding-top: 20px; 
+    background: green;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.menu-body h3{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+}
+.menu-body p{
+    background: grey;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    padding: 10px;
+}
+/* food menu css end */
+
+/* user review css start */
+#user-review{
+    padding: 60px 0px;
+}
+#user-review img{
+    margin: auto;
+    width: 100px;
+    line-height: 100px;
+    height:100px;
+    border-radius:100%;
+    
+}
+.carousel-item{
+    color: black;
+    margin: 30px 0;
+    text-align:center;
+    background: rgba(128, 128, 128, 0.493);
+    padding:5% 7% ;
+}
+.carousel-item h5{
+    margin-top: 5px;
+}
+.carousel-indicators{
+    bottom: -2px !important;
+}
+#contact{
+    background: #595b83;   
+}
+/* user review css end */
+
+/* contact us css start */
+.map{
+    
+    width: 100%;
+    height: 290px;
+}
+.contact-details{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.contact-details p,address{
+    font-size: .8rem;
+}
+/* contact css end */
+
+/* footer css start */
+footer{
+    padding: 1% 7%;
+    color: white;
+    background: #060930;
+}
+footer p{
+    line-height: 32px;
+    font-size: 0.8rem;
+}
+.footer-social-icon{
+    color: white;
+}
+.icon-style{
+    color: white;
+    width:32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 10px;
+    transition: .4s;
+}
+.icon-style:hover{
+    background: grey;
+    transform: scale(1.2);
+}
+/* footer css end*/
